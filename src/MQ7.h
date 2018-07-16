@@ -25,7 +25,8 @@ Explanation :
 #define coefficient_B -0.64
 
 //Load resistance 10 Kohms on the sensor potentiometer
-#define R_Load 10.0
+//#define R_Load 10.0
+#define R_Load 1.0
 
 class MQ7 {
 	private:

@@ -54,6 +54,7 @@ This function is for the deriving the Rs/R0 to find ppm
 float MQ7::getRatio(){
   int value = analogRead(analogPin);
   float v_out = voltageConversion(value);
+  Serial.print(v_out);
   return (v_in - v_out) / v_out;
 }
 /*
